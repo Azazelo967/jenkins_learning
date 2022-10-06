@@ -2,6 +2,6 @@ from DockerCreator import *
 
 dockerCreator = DockerCreator()
 
-dockerCreator.run_jenkins_agent()
-dockerCreator.run_nginx_docker()
+print(dockerCreator.run_jenkins_agent())
+print(dockerCreator.run_nginx_docker())
 
